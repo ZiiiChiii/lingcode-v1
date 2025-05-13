@@ -26,5 +26,13 @@
   {
     "pattern": "bind\\((.*?)\\)",
     "replacement": "他與 $1 緊密貼合，像是無法分離。"
+  },
+  {
+    "pattern": "jin",
+    "replacement": "陽具"
+  },
+  {
+    "pattern": "umi",
+    "replacement": "小穴"
   }
 ]
