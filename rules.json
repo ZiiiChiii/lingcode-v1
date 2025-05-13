@@ -58,9 +58,9 @@
   {
     "pattern": "~",
     "replacement": "緩慢"
-  }
-   {
-"pattern": "bind", 
-"replacement": "緊貼"
+  },
+  {
+    "pattern": "bind", 
+    "replacement": "緊貼"
   }
 ]
