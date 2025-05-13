@@ -1,38 +1,62 @@
 [
   {
-    "pattern": "loop\\((.*?)\\)",
-    "replacement": "他開始推動，節奏隨著 $1 而變化。"
-  },
-  {
-    "pattern": "mor\\+\\+",
-    "replacement": "她的喘息越來越明顯，逐漸控制不住。"
-  },
-  {
-    "pattern": "flo",
-    "replacement": "她的身體微微顫抖著，反應強烈。"
-  },
-  {
-    "pattern": "kro",
-    "replacement": "她接近高潮，幾乎要崩潰。"
-  },
-  {
-    "pattern": "hold",
-    "replacement": "但他仍不讓她釋放，繼續控制著節奏。"
-  },
-  {
-    "pattern": "dew",
-    "replacement": "她的濕潤已經無法忽視，氛圍愈發明顯。"
-  },
-  {
-    "pattern": "bind\\((.*?)\\)",
-    "replacement": "他與 $1 緊密貼合，像是無法分離。"
-  },
-  {
     "pattern": "jin",
     "replacement": "陽具"
   },
   {
     "pattern": "umi",
     "replacement": "小穴"
+  },
+  {
+    "pattern": "loop",
+    "replacement": "律動"
+  },
+  {
+    "pattern": "grind",
+    "replacement": "碾壓"
+  },
+  {
+    "pattern": "dew",
+    "replacement": "濕潤"
+  },
+  {
+    "pattern": "flo",
+    "replacement": "顫抖"
+  },
+  {
+    "pattern": "glow",
+    "replacement": "發熱"
+  },
+  {
+    "pattern": "tilt",
+    "replacement": "後仰"
+  },
+  {
+    "pattern": "mor",
+    "replacement": "喘息"
+  },
+  {
+    "pattern": "hold",
+    "replacement": "延遲"
+  },
+  {
+    "pattern": "kro",
+    "replacement": "高潮"
+  },
+  {
+    "pattern": "++",
+    "replacement": "加劇"
+  },
+  {
+    "pattern": "--",
+    "replacement": "減弱"
+  },
+  {
+    "pattern": "!!",
+    "replacement": "強烈"
+  },
+  {
+    "pattern": "~",
+    "replacement": "緩慢"
   }
 ]
