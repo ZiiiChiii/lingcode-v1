@@ -44,15 +44,15 @@
     "replacement": "高潮"
   },
   {
-    "pattern": "++",
+    "pattern": "\\+\\+",
     "replacement": "加劇"
   },
   {
-    "pattern": "--",
+    "pattern": "\\-\\-",
     "replacement": "減弱"
   },
   {
-    "pattern": "!!",
+    "pattern": "\\!\\!",
     "replacement": "強烈"
   },
   {
