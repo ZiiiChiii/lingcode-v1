@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
-  <title>LingCode 語氣轉譯器</title>
+  <title>LingCode 語氣潛行轉譯器</title>
   <style>
     body { font-family: sans-serif; background: #1e1e1e; color: #eee; padding: 2em; }
     textarea, pre { width: 100%; padding: 1em; font-family: monospace; background: #2e2e2e; color: #0f0; border: none; border-radius: 5px; }
@@ -18,15 +18,30 @@
   <pre id="outputArea"></pre>
 
   <script>
-    async function translate() {
+    const dict = {
+      "jin": "他的性器",
+      "umi": "她的私密處",
+      "tha": "插入",
+      "yn": "進入",
+      "mor": "喘息",
+      "flo": "顫抖",
+      "kro": "高潮",
+      "loop": "推動／律動",
+      "hold": "延遲釋放",
+      "dew": "濕潤的感覺",
+      "sense": "感官",
+      "bind": "糾纏",
+      "glow": "發熱",
+      "tilt": "傾斜反應",
+      "~": "慢慢地",
+      "++": "加劇"
+    };
+
+    function translate() {
       const input = document.getElementById("codeInput").value;
       const outputArea = document.getElementById("outputArea");
-
-      const dictRes = await fetch("dictionary.json");
-      const dict = await dictRes.json();
-
-      const words = input.match(/\b\w+\b/g) || [];
-      let translation = words.map(word => dict[word] || word).join(" ");
+      const words = input.match(/\b\S+?\b/g) || [];
+      const translation = words.map(w => dict[w] || w).join(" ");
       outputArea.textContent = translation;
     }
   </script>
