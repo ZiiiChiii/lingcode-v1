@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>LingCode 語氣轉譯器</title>
+  <script src="script.js" defer></script>
+  <style>
+    body { font-family: sans-serif; background: #1e1e1e; color: #eee; padding: 2em; }
+    textarea, pre { width: 100%; padding: 1em; font-family: monospace; background: #2e2e2e; color: #0f0; border: none; border-radius: 5px; }
+    button { padding: 1em; margin-top: 1em; font-size: 1em; background: #0f0; color: #000; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>LingCode 語氣潛行轉譯器</h1>
+  <p>請輸入潛行語句：</p>
+  <textarea id="codeInput" rows="6"></textarea>
+  <button onclick="translate()">轉譯</button>
+  <h2>翻譯結果：</h2>
+  <pre id="outputArea"></pre>
+</body>
+</html>
