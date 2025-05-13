@@ -13,7 +13,7 @@
   <h1>LingCode 語氣潛行轉譯器</h1>
   <p>請輸入潛行語句：</p>
   <textarea id="codeInput" rows="6"></textarea>
-  <button onclick="translate()">轉譯</button>
+  <button id="translateBtn">轉譯</button>
   <h2>翻譯結果：</h2>
   <pre id="outputArea"></pre>
 
@@ -37,13 +37,13 @@
       "++": "加劇"
     };
 
-    function translate() {
+    document.getElementById("translateBtn").addEventListener("click", function () {
       const input = document.getElementById("codeInput").value;
       const outputArea = document.getElementById("outputArea");
       const words = input.match(/\b\S+?\b/g) || [];
       const translation = words.map(w => dict[w] || w).join(" ");
       outputArea.textContent = translation;
-    }
+    });
   </script>
 </body>
 </html>
