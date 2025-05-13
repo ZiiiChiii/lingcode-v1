@@ -59,4 +59,4 @@
     "pattern": "~",
     "replacement": "緩慢"
   }
-]
+]{ "pattern": "bind", "replacement": "緊貼" }
