@@ -62,5 +62,65 @@
   {
     "pattern": "bind", 
     "replacement": "緊貼"
+  },
+   {
+    "pattern": "clamp",
+    "replacement": "夾緊"
+  },
+  {
+    "pattern": "pulse",
+    "replacement": "悸動"
+  },
+  {
+    "pattern": "press",
+    "replacement": "壓迫"
+  },
+  {
+    "pattern": "sink",
+    "replacement": "陷入"
+  },
+  {
+    "pattern": "draw",
+    "replacement": "拉近"
+  },
+  {
+    "pattern": "flare",
+    "replacement": "燒灼"
+  },
+  {
+    "pattern": "arch",
+    "replacement": "拱起"
+  },
+  {
+    "pattern": "shiver",
+    "replacement": "顫慄"
+  },
+  {
+    "pattern": "bite",
+    "replacement": "咬住"
+  },
+  {
+    "pattern": "drip",
+    "replacement": "滴落"
+  },
+  {
+    "pattern": "stretch",
+    "replacement": "拉展"
+  },
+  {
+    "pattern": "curve",
+    "replacement": "彎曲"
+  },
+  {
+    "pattern": "rush",
+    "replacement": "衝刺"
+  },
+  {
+    "pattern": "trace",
+    "replacement": "描繪"
+  },
+  {
+    "pattern": "whisper",
+    "replacement": "低語"
   }
 ]
