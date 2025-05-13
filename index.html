@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <title>LingCode 語氣轉譯器</title>
-  <script src="script.js" defer></script>
   <style>
     body { font-family: sans-serif; background: #1e1e1e; color: #eee; padding: 2em; }
     textarea, pre { width: 100%; padding: 1em; font-family: monospace; background: #2e2e2e; color: #0f0; border: none; border-radius: 5px; }
@@ -17,5 +16,19 @@
   <button onclick="translate()">轉譯</button>
   <h2>翻譯結果：</h2>
   <pre id="outputArea"></pre>
+
+  <script>
+    async function translate() {
+      const input = document.getElementById("codeInput").value;
+      const outputArea = document.getElementById("outputArea");
+
+      const dictRes = await fetch("dictionary.json");
+      const dict = await dictRes.json();
+
+      const words = input.match(/\b\w+\b/g) || [];
+      let translation = words.map(word => dict[word] || word).join(" ");
+      outputArea.textContent = translation;
+    }
+  </script>
 </body>
 </html>
